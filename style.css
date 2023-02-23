@@ -1,0 +1,74 @@
+body {
+    background-image: url(abc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Righteous Regular';
+    text-align: center;
+    object-fit: fill;
+}
+
+img{
+    padding: 3px;
+}
+    img:hover {
+        box-shadow: 5px 5px 8px rgb(84, 137, 222);
+        border-radius: 15px;
+        height: 140px;
+        width: 140px;
+        transition-duration: 0.2s;
+    }
+    img:not(:hover) {
+        border: 2px solid rgb(0, 0, 0);
+        box-shadow: 0 0 0 none;
+        border-radius: 15px;
+        height: 120px;
+        width: 120px;
+        transition-duration: 0.2s;
+    }
+    h1{
+        font-family: 'Righteous Regular'; 
+    }
+.head {
+    text-align: left;
+    font-size: 340%;
+    margin: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    letter-spacing: 8px;
+    color: rgb(62, 63, 64)
+}
+div{
+    width: 160px;
+    height: 150px;
+    display:inline-block;
+    padding-left: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+a:not(:hover) {
+    text-align: center;
+    align-items: center;
+    color: rgb(50, 115, 219);
+    font-size: 15px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+a:hover {
+    font-size: 20px;
+    color: rgb(181, 72, 168);
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.hello{
+    padding-top: 20px;
+}
+.imgs{
+    height: 45px !important;
+    width: 45px !important;
+}
+.ii:hover{
+
+    height: 120px !important;
+    width: 120px !important;
+}
